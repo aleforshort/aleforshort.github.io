@@ -1,0 +1,31 @@
+body {
+	background-color: white;
+}
+h1 {
+	color: #DC0DFF;
+	font-family: 'Courgette', monospace;
+	font-weight: bolder;
+	font-size: 200px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#slogan {
+	color: #DC0DFF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 100px;
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Courgette', monospace;
+}
+
+a{
+	text-align: center;
+	font-weight: normal;
+	font font-style: normal;
+	font-family: 'Courgette', monospace;
+}

@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	background: url("image3.jpg");
+	background-size: cover;
+}
+h1 {
+	color: #DC0DFF;
+	font-family: 'Meddon', cursive;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+p {
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Oswald', sans-serif;
+	color: #DC0DFF;
+}
+
+a{
+	text-align: center;
+	font-weight: normal;
+	font font-style: normal;
+	font-family: 'Oswald', sans-serif;
+	color: #DC0DFF;
+}
+
+li{
+	font-family: 'Oswald', sans-serif;
+	color: #DC0DFF;
+}
+#slogan {
+	color: #DC0DFF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 75px;
+	text-align: center;
+}
+
+#list{
+	margin: auto;
+}
