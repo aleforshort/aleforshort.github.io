@@ -1,0 +1,87 @@
+body {
+	background-color: white;
+}
+
+h1{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+}
+
+#logo{
+	float:left;
+	height: 50px;
+	width: 700px;
+	margin: 0, auto, auto, 0;
+	
+}
+#top-header{
+	margin: 0, auto, auto, auto;
+	background-color: #C9866F;
+	height: 200px;
+}
+#shopping-cart{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+	font-size: 15px;
+	float: right;
+	}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:"";
+	clear:both;
+	height:0;
+}
+nav{
+	font-size: 1.8em;
+	float: right;
+}
+nav a{
+	text-decoration: none;
+	color: #3D3A3B;
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	text-align: center;
+	margin: 100px;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+li{
+	display: block;
+}
+footer{
+	display: inline-block
+}
+.picture{
+	width:260px;
+	height: 300px;
+	margin:80px;
+	float:left;
+}
+#picture1{
+	background: url("pic1.jpg") no-repeat center center fixed;
+
+}
+#picture2{
+	background: url("pic2.jpg") no-repeat center center fixed;
+}
+#picture3{
+	background: url("pic3.jpg") no-repeat center center fixed;
+}
