@@ -46,16 +46,20 @@ h2{
 }
 nav{
 	font-size: 1.8em;
-	float: right;
+	margin: 0 auto;
+	width: 643px;
+	}
+
+nav ul li{
+	display: inline-block;
 }
-nav a{
+nav ul li a{
 	text-decoration: none;
 	color: #3D3A3B;
 	font-family: 'Oswald', sans-serif;
-	display: inline-block;
 	text-align: center;
-	margin: 100px;
-
+	padding: 40px;
+	display: inline-block;
 }
 ul{
 	list-style: none;
@@ -63,25 +67,27 @@ ul{
 	padding: 0;
 	display: block;
 }
-li{
-	display: block;
-}
+
 footer{
-	display: inline-block
+	position: relative;
+}
+footer ul li{
+	display: inline-block;
+}
+footer ul li a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
 }
 .picture{
 	width:260px;
 	height: 300px;
-	margin:80px;
+	margin: 0 80px;
 	float:left;
 }
-#picture1{
-	background: url("pic1.jpg") no-repeat center center fixed;
 
-}
-#picture2{
-	background: url("pic2.jpg") no-repeat center center fixed;
-}
-#picture3{
-	background: url("pic3.jpg") no-repeat center center fixed;
+#wrapper{
+	width: 1260px;
+	margin: 0 auto;
 }
