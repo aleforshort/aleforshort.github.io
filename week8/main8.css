@@ -1,0 +1,138 @@
+body {
+	background-color: white;
+}
+
+h1{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 5px;
+}
+
+nav{
+	font-size: 1.8em;
+	margin: 0 auto;
+	width: 643px;
+	}
+
+.first-nav-list, .first-nav-list a{
+	display: inline-block;
+}
+
+
+nav ul li a:hover{
+	text-decoration: none;
+	color: #3D3A3B;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 38px;
+	display: inline-block;
+	background-color: #A8BDCF;
+}
+hr{
+	border: none;
+	height: 5px;
+	background-color: #000000;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+article a{
+	color: black;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:"";
+	clear:both;
+	height:0;
+}
+.first-nav-list a{
+	text-decoration: none;
+	color: #3D3A3B;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 38px;
+	display: inline-block;
+}
+
+.second-nav-list{
+	display: none;
+}
+.first-nav-list:hover .second-nav-list{
+	display: block;
+}
+.second-nav-list li a{
+	display: block
+}
+.post{
+	width: 33%;
+	float: left;
+	text-align: justify;
+	margin: 1em;	
+}
+
+#logo{
+	width: 700px;
+	float: left;
+}
+#top-header{
+	margin: 0 auto auto;
+	background-color: #C9866F;
+	height: 130px;
+	padding-top: 10px;
+}
+#meet-ale{
+	float: right;
+	width: 20%;
+}
+#meet-ale li a{
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+	font-family:'Oswald', sans-serif; 
+	color: #3D3A3B;
+	font-weight: bold;
+}
+#meet-ale li{
+	height: 45px;
+}
+@media only screen and (max-width:480px) {
+.post{
+	width: 100%;
+	float: none;
+	text-align: justify;
+	margin: 1em;	
+ }
+#meet-ale{
+	float: none;
+	width: 100%;
+}
+
+.first-nav-list, .first-nav-list a{
+	display: block;
+	text-align: left;
+}
+#logo{
+	width: 100%;
+	float: none;
+}
+h1{
+	font-size: 4em;
+}
+
+}
