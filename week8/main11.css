@@ -1,0 +1,174 @@
+body {
+	background-color: white;
+}
+
+h1{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	color: #3D3A3B;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 5px;
+}
+
+hr{
+	border: none;
+	height: 1.5px;
+	background-color: #000000;
+}
+
+article{
+	text-align: justify;
+}
+
+article a{
+	color: black;
+}
+
+nav{
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+	display: inline-block;
+	text-align: auto;
+	margin: 0;
+	padding:0;
+}
+
+nav li{
+	font-family: 'Oswald', sans-serif; 
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+	height: 55px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #3D3A3B;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+}
+
+nav li:hover ul {
+	background-color: #7D9194;
+	display: block;
+}
+
+nav li ul{
+	position: absolute;
+	display: none;
+}
+
+nav li li{
+	font-size: .5em;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	display: block;
+	border-bottom: 1px solid #785957;
+}
+
+img{
+	float: right;
+	margin: 20px 60px 20px 1;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:"";
+	clear:both;
+	height:0;
+}
+.post{
+	width: 50%;
+	float: left;
+	text-align: justify;
+	margin: 1em;	
+}
+
+.post2{
+	width: 33%;
+	float: left;
+	text-align: justify;
+	margin: 1em;	
+}
+
+#logo{
+	width: 800px;
+	float: left;
+	margin-top: 90px;
+}
+#top-header{
+	margin: 0 auto auto;
+	background-color: #C9866F;
+	height: 365px;
+}
+
+#h2-header{
+	color: #3D3A3B;
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 5px;	
+}
+
+#meet-ale{
+	margin: 90px 40px 40px 400px;
+}
+
+#meet-ale li a{
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+	font-family:'Oswald', sans-serif; 
+	color: #3D3A3B;
+	font-weight: bold;
+
+}
+#meet-ale li{
+	height: 40px;
+	display: inline-block;
+	padding: 30px;
+}
+#wrapper{
+	margin: 50px;
+}
+@media only screen and (max-width:480px) {
+.post{
+	width: 100%;
+	float: none;
+	text-align: justify;
+	margin: 1em;	
+ }
+#meet-ale{
+	float: none;
+	width: 100%;
+}
+
+.first-nav-list, .first-nav-list a{
+	display: block;
+	text-align: left;
+}
+#logo{
+	width: 100%;
+	float: none;
+}
+h1{
+	font-size: 4em;
+}
+
+}
