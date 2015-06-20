@@ -37,6 +37,13 @@ nav ul li a:hover{
 	padding: 38px;
 	display: inline-block;
 	background-color: #A8BDCF;
+
+}
+
+.second-nav-list, .secondn-nav-list li a{
+	display: inline-block;
+	font-size: 1em;
+
 }
 hr{
 	border: none;
@@ -61,6 +68,10 @@ article a{
 	clear:both;
 	height:0;
 }
+
+.first-nav-list li{
+	font-size: 1em;
+}
 .first-nav-list a{
 	text-decoration: none;
 	color: #3D3A3B;
@@ -75,6 +86,7 @@ article a{
 }
 .first-nav-list:hover .second-nav-list{
 	display: block;
+	position:absolute;
 }
 .second-nav-list li a{
 	display: block
